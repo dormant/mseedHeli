@@ -1,0 +1,9 @@
+#!/usr/bin/bash
+# 
+# Runs mseedHeliNoFrills.py under proper conda environment
+
+source /home/seisan/anaconda3/etc/profile.d/conda.sh
+conda activate obspy
+
+/home/seisan/STUFF/src/mvo/mseedHeli/mseedHeliNoFrills.py "$@"
+
