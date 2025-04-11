@@ -176,7 +176,7 @@ for sta in stations:
 
 
 
-command = 'mogrify -crop 911x1015+145+63 M*.png'
+command = 'magick mogrify -crop 911x1015+145+63 M*.png'
 subprocess.run(command, shell = True, executable="/usr/bin/bash")
 
 command = 'mv M*.png /mnt/mvofls2/Seismic_Data/monitoring_data/helicorder_plots_raw/' + str( year )
