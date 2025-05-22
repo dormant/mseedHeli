@@ -1,5 +1,7 @@
 # mseedHeli
 
+## ~/src/mseedHeli
+
 Create monitoring plots from miniseed data using *obspy*.
 
 Some scripts work on all miniseed files in the current directory.
